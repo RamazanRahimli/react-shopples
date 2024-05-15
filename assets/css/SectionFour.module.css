@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  width: 100%;
+  background-color: salmon;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 85%;
+  background-color: darkblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.topBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+  width: 50%;
+  background-color: sandybrown;
+  padding: 20px 0;
+  align-self: center;
+}
+
+.topBox p {
+  border-bottom: 1px solid gray;
+  width: 10%;
+}
+
+.topBox h2 {
+  font-size: 32px;
+  font-weight: 500;
+  color: #25262a;
+}
+
+.bottomBox {
+  width: 85%;
+  background-color: darkgreen;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: center;
+}
+
+.bottomBox .productCard {
+  width: 30%;
+  background-color: sienna;
+}
+
+.productCard img {
+  width: 100%;
+}
+
+.productCard .writeSaleBox {
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.writeSaleBox a {
+  text-decoration: none;
+  color: #3a2ee0;
+}
+
+.writeSaleBox p {
+  color: gray;
+}
+
+.writeSaleBox h5 {
+  color: #3a2ee0;
+}

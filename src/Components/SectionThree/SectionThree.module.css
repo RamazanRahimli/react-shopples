@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box {
+    width: 100%;
+    min-height: 66vh;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+/* .container entry  */
+/* start  */
+
+.logoWriteBox {
+    width: 33%;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url('../../assets/IMAGE/women.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.logoWriteBox .writeBox {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-content: flex-end;
+    padding: 10px 20px;
+}
+.writeBox h2 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+}
+.writeBox p {
+    color: white;
+    cursor: pointer;
+    font-size: 12px
+}
+.logoWriteBox:hover {
+    background-position: center;
+    transition: 0.5s;
+    height: 100%;
+}
+
+/* logowriteBox1 start  */
+
+.logoWriteBox1 {
+    width: 30%;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url('../../assets/IMAGE/children.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.logoWriteBox1 .writeBox {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-content: flex-end;
+    padding: 10px 20px;
+}
+.writeBox h2 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+}
+.writeBox p {
+    color: white;
+    cursor: pointer;
+    font-size: 12px
+}
+.logoWriteBox1:hover {
+    background-position: center;
+    transition: 0.5s;
+    height: 100%;
+}
+/* final  */
+.logoWriteBox2 {
+    width: 33%;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url('../../assets/IMAGE/men.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.logoWriteBox2 .writeBox {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-content: flex-end;
+    padding: 10px 20px;
+}
+.writeBox h2 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+}
+.writeBox p {
+    color: white;
+    cursor: pointer;
+    font-size: 12px
+}
+.logoWriteBox2:hover {
+    background-position: center;
+    transition: 0.5s;
+    height: 100%;
+}
